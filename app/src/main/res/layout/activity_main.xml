@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="303dp"
+        android:layout_height="246dp"
+        android:text="          Two-Channel Play" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="309dp"
+        android:layout_height="270dp"
+        android:layout_weight="1"
+        android:text="          Left-Channel Play" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="311dp"
+        android:layout_height="246dp"
+        android:layout_weight="1"
+        android:text="          Right-Channel Play" />
+
+</LinearLayout>
